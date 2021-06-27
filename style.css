@@ -1,0 +1,37 @@
+body{
+    background-color: blue;
+}
+h1{
+    color: #fff5ee;
+}
+.header{
+    border: solid;
+    margin-right: 200px;
+    padding-left: 600px;
+    color:#8a2be2;
+    font-style: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO4PN-UaNWzXKvnY5PO9w9_lmDOIsc0uN8ig&usqp=CAU);
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url(https://img.freepik.com/free-photo/wooden-background_24972-623.jpg?size=626&ext=jpg)
+}
+a:link{
+    color: darkblue;
+    size: 500px;
+}
+a:visited{
+    color: crimson;
+}
+.item:hover{
+    transform: scale(1.2);
+}
+.item p{
+    border: solid;
+    position: relative;
+    background-color: #FFC0CB;
+}
